@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+ 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#content{
+  color:white !important;
+}
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: black;
+}
+.img-center {
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.list{
+  color: white;
+    background-color: rgba(0,0,0,0.7);
+    height: 2000px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    border-radius: 10px;
+}
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(211, 205, 205, 0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+#answer{
+  font-family: "Source Sans Pro";
+  color:white;
+  border: none;
+  color: #fff;
+  font-style: 18pt;
+  padding-top: 20px;
+  background-color: transparent;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px black inset;
+    -webkit-text-fill-color: white !important;
+}
+input{
+  width:  20%;
+}
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/banner4.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+h1{
+  font-family: "Source Sans Pro";
+  color:white;
+  font-weight:bold;
+}
+h2{
+  font-family: "Source Sans Pro";
+  color:white;
+  font-weight: lighter;;
+}
