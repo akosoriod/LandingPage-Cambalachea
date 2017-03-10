@@ -18,7 +18,7 @@
         <header class="header">
             <div class="text-vertical-center">
                 <img class="img-responsive img-center" src="img/logo.png" alt="">
-                    <h3>Nos comunicaremos contigo pronto.</h3>
+                    <h3>Estamos creando algo que generará un alto impacto del que muy pronto harás parte.</h3>
                     <br> 
                     <br> 
             </div>

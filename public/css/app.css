@@ -41,6 +41,12 @@ body {
     background-color: rgba(211, 205, 205, 0.4);
 }
 
+.btn-green {
+    border-radius: 0;
+    color: #fff;
+    background-color: #2cba36;
+}
+
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {

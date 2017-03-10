@@ -31,7 +31,7 @@
                         <input name="email" class="col-md-offset-4 col-xs-offset-2 col-md-4 col-xs-9 btn btn-dark btn-lg"  > </input>
                     </div>
                      <div class="row">
-                        <button type="submit"  class="col-md-2 col-md-offset-5 col-xs-3 btn btn-dark btn-lg col-xs-offset-5">Enviar
+                        <button type="submit"  class="col-md-2 col-md-offset-5 col-xs-3 btn btn-green btn-lg col-xs-offset-5">Enviar
                         </button>
                         </form>
                    </div>   
