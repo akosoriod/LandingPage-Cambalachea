@@ -24,7 +24,7 @@
                     <h1 class=" col-xs-9 text-center">¿Para qué el dinero si puedes usar tu tiempo?</h1>
                     <h1 class=" col-xs-9 space1">Comparte lo que sabes, aprende lo que quieras.</h1>
 
-                    <h3 class="col-xs-offset-1 col-xs-9 ">¿Quieres saber mas? </h3>
+                    <h3 class="col-xs-offset-1 col-xs-9 ">¿Quieres saber más? </h3>
                     <h3 class="col-xs-offset-1 col-xs-9 space ">Ingresa tu correo</h3>
                     
                     <div class="row">
