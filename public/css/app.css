@@ -15,8 +15,10 @@ body {
     background: black;
 }
 .img-center {
-  margin: 0 auto;
-  padding-bottom: 70px;
+    position: relative;
+    left: 17%;
+        max-width: 65%;
+    top: -59px;
 }
 .text-vertical-center {
     display: table-cell;
@@ -74,6 +76,11 @@ input:-webkit-autofill {
 input{
   width:  20%;
 }
+.space{
+  margin-bottom:26px !important;
+} 
+.space1{
+  margin-bottom:36px  !important;}
 .header {
     display: table;
     position: relative;
@@ -89,9 +96,20 @@ h1{
   font-family: "Source Sans Pro";
   color:white;
   font-weight:bold;
+  margin: 0px !important;
+  left: 13%;
 }
-h2{
+h3{
   font-family: "Source Sans Pro";
   color:white;
-  font-weight: lighter;;
+  font-weight: lighter;
+  margin: 0px !important;
+  left: 13%;
+}
+.row{
+  margin-top: 1%;
+ margin-right: 0px !important;
+}
+`br{
+  margin-top: 15px;
 }

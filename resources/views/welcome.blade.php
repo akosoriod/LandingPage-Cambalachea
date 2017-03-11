@@ -17,15 +17,24 @@
         <!-- Header -->
         <header class="header">
             <div class="text-vertical-center">
-                <img class="img-responsive img-center" src="img/logo.png" alt="">
-                <form class="form-horizontal" role="form" method="POST" action="{{ url('/subscribe') }}">
+                <img class=" col-xs-9 img-responsive img-center" src="img/logo.png" alt="">
+                <form  role="form" method="POST" action="{{ url('/subscribe') }}">
                 {{ csrf_field() }}
-                    <h1>¿Quieres saber mas? </h1>
-                    <h2>Ingresa tu correo</h2>
-                    <br>
-                        <input name="email" class="btn btn-dark btn-lg"  > </input>
-                        <button type="submit"  class="btn btn-dark btn-lg">Enviar</button>
-                    <br>    
+                    
+                    <h1 class=" col-xs-9 text-center">¿Para qué el dinero si puedes usar tu tiempo?</h1>
+                    <h1 class=" col-xs-9 space1">Comparte lo que sabes, aprende lo que quieras.</h1>
+
+                    <h3 class="col-xs-offset-1 col-xs-9 ">¿Quieres saber mas? </h3>
+                    <h3 class="col-xs-offset-1 col-xs-9 space ">Ingresa tu correo</h3>
+                    
+                    <div class="row">
+                        <input name="email" class="col-md-offset-4 col-xs-offset-2 col-md-4 col-xs-9 btn btn-dark btn-lg"  > </input>
+                    </div>
+                     <div class="row">
+                        <button type="submit"  class="col-md-2 col-md-offset-5 col-xs-3 btn btn-dark btn-lg col-xs-offset-5">Enviar
+                        </button>
+                        </form>
+                   </div>   
                 </form>
             </div>
         </header>
