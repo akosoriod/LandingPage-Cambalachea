@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Cambalachea</title>
-
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/app.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -19,7 +19,7 @@
             <div class="text-vertical-center">
                 <img class=" col-xs-9 img-responsive img-center" src="img/logo.png" alt="">
                 <form  role="form" method="POST" action="{{ url('/subscribe') }}">
-                {{ csrf_field() }}
+                {{ csrf_field() }} 
                     
                     <h1 class=" col-xs-9 text-center">¿Para qué el dinero si puedes usar tu tiempo?</h1>
                     <h1 class=" col-xs-9 space1">Comparte lo que sabes, aprende lo que quieras.</h1>
